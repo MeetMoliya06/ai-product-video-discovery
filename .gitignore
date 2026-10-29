@@ -1,0 +1,9 @@
+.env
+node_modules
+dist
+data
+*.log
+.DS_Store
+# local-only files (not part of the submission)
+PLAN.md
+AI Automation Task.docx.pdf
