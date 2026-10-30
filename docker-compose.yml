@@ -7,6 +7,7 @@ services:
     env_file: .env
     environment:
       REDIS_URL: redis://redis:6379
+      DB_PATH: /data/app.db
       CORS_ORIGIN: http://localhost:8080
     depends_on: [redis]
     volumes: [appdata:/data]
